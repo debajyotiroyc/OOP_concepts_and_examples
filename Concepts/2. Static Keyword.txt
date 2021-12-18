@@ -1,0 +1,29 @@
+Static Members(attributes/methods) belong more to the Class rather than the Instance of that Class. Mainly, the Static keyword is used for memory management purposes.
+Static members can be called by the Class name or object reference only and not by the instance name.
+
+Static in Java:
+
+The static keyword in Java can be applied to:
+1. Variable (also known as a class variable)
+2. Method (also known as a class method)
+3. Block
+4. Nested class
+
+If you declare any variable as static, it is known as a static variable.
+
+1) The static variable can be used to refer to the common property of all objects (which is not unique for each object), for example, the company name of employees, college name of students, etc.
+The static variable gets memory only once in the class area at the time of class loading.
+If you apply static keyword with any method, it is known as static method.
+
+2) A static method belongs to the class rather than the object of a class.
+A static method can be invoked without the need for creating an instance of a class.
+A static method can access static data member and can change the value of it.
+
+3) Java static block:
+Is used to initialize the static data member.
+It is executed before the main method at the time of classloading.
+
+Static in Python:
+Variables and Methods can be statically declared.
+Variables declared inside the Class but outside any method is called static/class variables.
+Methods declared using @staticmethod decorator are static methods which cannot access any variables or methods static or non-static.
