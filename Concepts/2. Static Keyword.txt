@@ -1,4 +1,4 @@
-Static Members(attributes/methods) belong more to the Class rather than the Instance of that Class. Mainly, the Static keyword is used for memory management purposes.
+Static Members(attributes/methods) belong more to the Class rather than the Instance of that Class. Mainly, the Static keyword is used for memory management purposes since Static members are only loaded once,i.e, single copy is shared by all the instances of the Class.
 Static members can be called by the Class name or object reference only and not by the instance name.
 
 Static in Java:
