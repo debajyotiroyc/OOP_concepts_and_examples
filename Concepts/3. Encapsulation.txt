@@ -1,0 +1,9 @@
+Encapsulation is the process of wrapping of data and functions of a class together so that they can be applied as an unit to perform any operation.
+
+It is one of the most fundamental concepts of OOP.Encapsulation is used to hide the values or state of a structured data object inside a class thus preventing unauthorized access.This is called data hiding.
+
+Therefore, data binding and data hiding are the two main goals of data encapsulation.
+
+
+
+ 
